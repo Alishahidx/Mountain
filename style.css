@@ -18,8 +18,8 @@ button {height:40px; background-color: #1a6c7a;border-style: none;width: 100px;t
 
 .highlight {border-bottom: 2px solid rgb(132,0,255);}
 .service,.service1 {height: 600px;margin: 0px auto;width:85%;background-color: #edf4f5;}
-.cardcontainer { display: grid;grid-template-columns: auto auto auto;grid-gap: 1px;/*background-color: #2196F3*/;padding: 1px;}
-.containera {display: grid;grid-template-columns:auto auto auto;grid-gap: 11px;/*background-color: #2196F3*/;padding: 11px 11px;}
+.cardcontainer { display: grid;grid-template-columns: auto auto auto;grid-gap: 1px;/*background-color: #2196F3*/;float:left;}
+.containera {display: grid;grid-template-columns:auto auto auto;grid-gap: 1px;/*background-color: #2196F3*/;padding: 11px 11px;}
 .cardcontainer div { /*background-color: rgba(255, 255, 255, 0.8)*/;text-align: center;padding: 11px 11px;font-size: 13px;}}
 .containera div { /*background-color: rgba(255, 255, 255, 0.8)*/;text-align: center;font-size: 13px;padding: 11px 1px;}}
 .card , .card1 {grid-column: 1/1;} .card img{width:100%;}
@@ -53,10 +53,11 @@ footer {height: 300px;background-color: #ffffff;}
 	#mobilemenu.is-active .bar:nth-child(2){opacity:0;}
 	#mobilemenu.is-active .bar:nth-child(1){transform: translateY(8px) rotate(45deg);}
 	#mobilemenu.is-active .bar:nth-child(3){transform: translateY(-8px) rotate(-45deg);}
-	.b1 button {margin: 0px 1px;float: left;position: relative;left: 15px;width:115px;}
+	.b1 button {margin: 0px 1px;float: left;position: relative;left: 115px;width:115px;}
 	.b1:hover {opacity: .9;color: #1a6c7a;transition: all 0.3s ease-in-out}
-	.headercontent {text-align: center;width:50%;margin: 0px auto;color: black;font-size: 15px;}
-	.headercontent p,h3 {font-size: 15px;}
+	.headercontent {text-align: center;width:100%;margin: 0px auto;color: black;font-size: 15px;}
+	.headercontent p {font-size:18px;width: 50%;margin: 0px 0px 0px 115px;}
+	.headercontent h3 {font-size:25px;}
 	.fl {margin: 10px 0px 0px 100px;}
 	.fcard img {width: 70%;}
 
